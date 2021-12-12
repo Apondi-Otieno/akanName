@@ -13,46 +13,59 @@
         <h3>Do you want to find your akanName?</h3>
     </header>
     <main>
-        <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a
-            'day name' which corresponds to the day in the week they were born.</p>
+        <p class="para">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first
+            name as a
+            'day name' which corresponds to the day in the week they were born. <br> Get your Akan name now:</p>
         <!-- The form will collect data from the user -->
-        <div class="form-group">
-            <!-- birthday, gender,  -->
-            <label for="number">
-                Year of birth:
-            </label>
-            <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="Year">
-        </div>
+        <div class="overlay">
+            <div class="container">
+                <h3> Fill the form to find out!</h3>
+                <form name="myForm" class="form" onsubmit="validateForm();">
+                    <div class="form-group">
 
-        <div class="form-group">
-            <label for="month">
-                Month of Birth:
-            </label>
-            <input type="text" class="form-control" id="month" placeholder="Month of Birth" name="month">
-        </div>
+                        <!-- birthday, gender,  -->
+                        <label for="number">
+                            Year of birth:
+                        </label>
+                        <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="Year">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="month">
+                            Month of Birth:
+                        </label>
+                        <input type="text" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="date">
+                            Date of birth:
+                        </label>
+                        <input type="number" class="form-control" id="date" placeholder="Date of birth" name="Date">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="month">
+                            Gender
+                        </label>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="Gender" id="female">
+                            </label>
+                        </div>
 
-        <div class="form-group">
-            <label for="date">
-                Date of birth:
-            </label>
-            <input type="number" class="form-control" id="date" placeholder="Date of birth" name="Date">
-        </div>
-        <div class="form-group">
-            <label for="month">
-                Gender
-            </label>
-            <div class="form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="Gender" id="female">
-                </label>
+                        <div class="form-check-inline">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="Gender" id="male">
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-secondary" onclick="getName();"> Get Akan Name </button>
+                    <br>
+                </form>
             </div>
-
-            <div class="form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="Gender" id="male">
-                </label>
-            </div>
         </div>
+
     </main>
 </body>
 
