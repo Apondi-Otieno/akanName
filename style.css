@@ -11,7 +11,9 @@ padding:1rem;
 
 }
  
-
+#deets {
+    font-size: 1.2rem;
+}
 #start {
     color:olive;
     font-family: 'lobster';
