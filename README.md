@@ -4,6 +4,8 @@
 ## Project Description
 This project is about finding Akan Names for people of ghanaian origin. THe name depends of the date of birth which is calculated by the defined function. 
 
+## Live Link
+https://apondi-otieno.github.io/akanName/
 
 ## Installation Process
  1. Go to my repo at https://github.com/Apondi-Otieno/akanName
