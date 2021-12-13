@@ -13,8 +13,9 @@ https://apondi-otieno.github.io/akanName/
 3. cd the project, then go live.
 
 ## Display
-![Screenshot from 2021-12-13 16-56-23](https://user-images.githubusercontent.com/93314840/145827204-6819ca2b-4608-4b71-95f4-775e65cb0cf1.png)
-![Screenshot from 2021-12-13 16-56-28](https://user-images.githubusercontent.com/93314840/145827217-a5a3c9b8-e070-46ca-80b7-4c02011543b6.png)
+![Screenshot from 2021-12-13 17-34-16](https://user-images.githubusercontent.com/93314840/145831274-21d75c97-adca-4b8d-a023-a45a134c7ea0.png)
+
+![Screenshot from 2021-12-13 17-34-19](https://user-images.githubusercontent.com/93314840/145831284-b00298be-3b53-487e-8a15-10f6b732548f.png)
 
 
 
