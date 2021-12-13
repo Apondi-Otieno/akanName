@@ -5,7 +5,7 @@ html {
 }
 
 header {
-
+background-image: url(img/3.\ jpeg);
 height: 10vh;
 padding:1rem;
 
@@ -26,19 +26,24 @@ padding:1rem;
     font-weight: 400;
 }
 #introduction {
-  background-color: ;
+  
   font-size:1.3rem;
   padding:1rem;
-  height:50rem;
+  height:15rem;
+  background-color: black;
+  color: white;
 
 }
 
 .names
 {
+
+    font-size: 1.7rem;
     display: flex;
+    color:whitesmoke;
     justify-content: space-evenly;
     height:20rem;
-    background-color: aqua;
+    background-color:black;
 }
 #form{
 text-align:center;
