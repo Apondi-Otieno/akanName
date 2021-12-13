@@ -2,7 +2,7 @@
  Designed by Apondi
 
 ## Project Description
-This project is about findin Akan Names for people of ghanaian origin. THe name depends of the date of birth which is calculated by the defined function. 
+This project is about finding Akan Names for people of ghanaian origin. THe name depends of the date of birth which is calculated by the defined function. 
 
 
 ## Installation Process
