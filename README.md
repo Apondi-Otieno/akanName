@@ -1,8 +1,8 @@
 # akanName
-## Designed by Apondi
+ Designed by Apondi
 
 # Project Description
-## This project is about findin Akan Names for people of ghanaian origin. THe name depends of the date of birth which is calculated by the defined function. 
+This project is about findin Akan Names for people of ghanaian origin. THe name depends of the date of birth which is calculated by the defined function. 
 
 
 # Installation Process
@@ -18,5 +18,5 @@
  3. JavaScript
 
  # License
- ## MIT License
- ### Copyright (c) 2021 APONDI OTIENO
+ ##### MIT License
+ ###### Copyright (c) 2021 APONDI OTIENO
