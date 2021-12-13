@@ -36,6 +36,9 @@ padding:1rem;
 .names
 {
     display: flex;
+    justify-content: space-evenly;
+    height:20rem;
+    background-color: aqua;
 }
 #form{
 text-align:center;
