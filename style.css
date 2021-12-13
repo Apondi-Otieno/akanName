@@ -33,6 +33,10 @@ padding:1rem;
 
 }
 
+.names
+{
+    display: flex;
+}
 #form{
 text-align:center;
  color: rgb(205, 138, 50);
