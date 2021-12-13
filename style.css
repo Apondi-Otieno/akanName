@@ -5,21 +5,31 @@ html {
 header {
 background-color: aqua;
 height: 10vh;
-text-align: center
+text-align: center;
+padding:1rem;
+
 
 }
 
 
-.container {
- background-image: url(img/2.jpeg) no-repeat;
-  
+#introduction {
+background-color: yellow;
+  font-size:1.3rem;
+  padding:1rem;
+  float: left;
+}
+
+#form {
+    background-color:red;
+    padding:1rem;
+
 }
 
 
 footer {
 background-color: black;
 color: white;
-
+padding: 1rem;
 text-align: center
 
 }
