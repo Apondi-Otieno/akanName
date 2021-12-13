@@ -1,26 +1,41 @@
 html {
     font-family: 'JOsefin Sans';
+    /* background-image: url(img/2.jpeg) ;
+    background-size: cover; */
 }
 
 header {
-background-color: aqua;
+
 height: 10vh;
 text-align: center;
 padding:1rem;
 
+}
+ 
 
+#start {
+    color:olive;
+    font-family: 'lobster';
+    font-weight: 400;
 }
 
-
+#end {
+    color:;
+    font-family: 'lobster';
+    font-weight: 400;
+}
 #introduction {
-background-color: yellow;
+background-color: rgba(255, 255, 0, 0.425);
   font-size:1.3rem;
   padding:1rem;
-  float: left;
+  color: rgb(209, 205, 205);
+  background-image: url(img/1.\ Vector\ Illustration);
+  height:20rem;
+ 
 }
 
 #form {
-    background-color:red;
+    background-color:rgba(255, 0, 0, 0.267);
     padding:1rem;
 
 }
