@@ -7,7 +7,6 @@ html {
 header {
 
 height: 10vh;
-text-align: center;
 padding:1rem;
 
 }
@@ -25,22 +24,35 @@ padding:1rem;
     font-weight: 400;
 }
 #introduction {
-background-color: rgba(255, 255, 0, 0.425);
+
   font-size:1.3rem;
   padding:1rem;
-  color: rgb(209, 205, 205);
-  background-image: url(img/1.\ Vector\ Illustration);
   height:20rem;
- 
+
 }
 
-#form {
-    background-color:rgba(255, 0, 0, 0.267);
+#form{
+text-align:center;
+ color:white;
     padding:1rem;
+    background-image: url(img/1.\ Vector\ Illustration);
 
 }
+ form {
+     border:  solid 1px white;
+    width:40%;
+    margin-left: 30%;
+ color: black;
+     background-color: white;
+     padding:1rem;
+ }
 
 
+ button {
+     padding:1rem;
+     font-family: 'josefin sans';
+     font-size: 1rem;
+ }
 footer {
 background-color: black;
 color: white;
