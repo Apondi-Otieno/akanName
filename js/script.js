@@ -36,7 +36,7 @@ function validateForm() {
     }
 }
 
-function dayValue() {
+function calcDayValue() {
 
     year = document.getElementById("year").value;
     CC = parseInt(year.substring(0, 2));
@@ -165,5 +165,11 @@ function getGender() {
             }
 
             break;
+            default:
+    }
+
+    function findName() {
+        dayValue = calcDayValue();
+        getGender();
     }
 }

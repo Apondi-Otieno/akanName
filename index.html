@@ -11,63 +11,70 @@
 
 <body>
     <header>
-        <h3>Do you want to find your akanName?</h3>
+
+        <h1> AKAN NAMES</h1>
+
     </header>
+
+
     <main>
-        <p class="para">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first
-            name as a
-            'day name' which corresponds to the day in the week they were born. <br> Get your Akan name now:</p>
-        <!-- The form will collect data from the user -->
-        <div class="overlay">
-            <div class="container">
-                <h3> Fill the form to find out!</h3>
-                <form name="myForm" class="form" onsubmit="validateForm();">
-                    <div class="form-group">
+        <div class="container" id="introduction">
+            <h4>A brief history of Akan Names</h4>
+            <p>The Akan people of Ghana frequently name their children after the day of the week they were born and
+                the<br>
+                order in which they were born. These "day names" have further meanings concerning the soul and character
+                of<br>
+                the person. Middle names have considerably more variety and can refer to their birth order, twin status,
+                or<br>
+                an ancestor's middle name.
+                <br>
+                This naming tradition is shared throughout West Africa and the African diaspora. During the
+                18th–19th<br>
+                centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred to
+                as<br>
+                Coromantees. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy, Cuffee
+                or<br>
+                Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.<br>
 
-                        <!-- birthday, gender,  -->
-                        <label for="number">
-                            Year of birth:
-                        </label>
-                        <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="Year">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="month">
-                            Month of Birth:
-                        </label>
-                        <input type="text" class="form-control" id="month" placeholder="Month of Birth" name="month">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="date">
-                            Date of birth:
-                        </label>
-                        <input type="number" class="form-control" id="date" placeholder="Date of birth" name="Date">
-                    </div>
-                    <br>
-                    <div class="form-group">
-                        <label for="month">
-                            Gender
-                        </label>
-                        <div class="form-check-inline">
-                            <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="Gender" id="female">
-                            </label>
-                        </div>
+                Most Ghanaians have at least one name from this system, even if they also have an English or Christian
+                name.<br>
+                Notable figures with day names include Ghana's first president Kwame Nkrumah and former United
+                Nations<br>
+                Secretary-General Kofi Annan.<br>
 
-                        <div class="form-check-inline">
-                            <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="Gender" id="male">
-                            </label>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-secondary" onclick="getName();"> Get Akan Name </button>
-                    <br>
-                </form>
-            </div>
+                In the official orthography of the Twi language, the Ashanti versions of these names as spoken in Kumasi
+                are<br>
+                as follows. The diacritics on á a̍ à represent high, mid, and low tone (tone does not need to be marked
+                on<br>
+                every vowel), while the diacritic on a̩ is used for vowel harmony and can be ignored. (Diacritics
+                are<br>
+                frequently dropped in any case.) Variants of the names are used in other languages, or may represent<br>
+                different transliteration schemes. The variants mostly consist of different affixes (in Ashanti, kwa- or
+                ko-<br>
+                for men and a- plus -a or -wa for women). For example, among the Fante, the prefixes are kwe-, kwa or ko
+                for<br>
+                men and e-, arespectively. Akan d̩wo or jo(Fante) is pronounced something like English Joe, but there
+                do<br>
+                appear to be two sets of names for those born on Monday.</p>
+
+        </div>
+
+
+        <div class="container">
+
+            <h3>Do you want to find your akanName?</h3>
+
+            <h3> Fill the form to find out!</h3>
+            <form name="myForm" class="form" onsubmit="validateForm();">
+                <input type="radio" id="female" class="form-check-input" name="gender" >
+                <label for="female">Female</label><br>
+                <button type="submit" class="btn btn-secondary" onclick="getName();"> Get Akan Name </button>
+            </form>
         </div>
 
     </main>
 </body>
 
 </html>
+
+
