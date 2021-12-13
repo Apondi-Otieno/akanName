@@ -35,27 +35,7 @@
                 Coromantees. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy, Cuffee
                 or<br>
                 Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.<br>
-
-                Most Ghanaians have at least one name from this system, even if they also have an English or Christian
-                name.<br>
-                Notable figures with day names include Ghana's first president Kwame Nkrumah and former United
-                Nations<br>
-                Secretary-General Kofi Annan.<br>
-
-                In the official orthography of the Twi language, the Ashanti versions of these names as spoken in Kumasi
-                are<br>
-                as follows. The diacritics on á a̍ à represent high, mid, and low tone (tone does not need to be marked
-                on<br>
-                every vowel), while the diacritic on a̩ is used for vowel harmony and can be ignored. (Diacritics
-                are<br>
-                frequently dropped in any case.) Variants of the names are used in other languages, or may represent<br>
-                different transliteration schemes. The variants mostly consist of different affixes (in Ashanti, kwa- or
-                ko-<br>
-                for men and a- plus -a or -wa for women). For example, among the Fante, the prefixes are kwe-, kwa or ko
-                for<br>
-                men and e-, arespectively. Akan d̩wo or jo(Fante) is pronounced something like English Joe, but there
-                do<br>
-                appear to be two sets of names for those born on Monday.</p>
+            </p>
 
         </div>
 
@@ -66,9 +46,18 @@
 
             <h3> Fill the form to find out!</h3>
             <form name="myForm" class="form" onsubmit="validateForm();">
-                <input type="radio" id="female" class="form-check-input" name="gender" >
+                <label for="year"> Year of Birth </label>
+                <input type="number" id="year" placeholder="eg 1999">
+                <br>
+                <label for="year"> Month of Birth </label>
+                <input type="number" id="month" placeholder="eg 6">
+                <br>
+                <label for="year"> Date of Birth </label>
+                <input type="number" id="date" placeholder="eg 16">
+                <br>
+                <input type="radio" id="female" class="form-check-input" name="gender">
                 <label for="female">Female</label><br>
-                <button type="submit" class="btn btn-secondary" onclick="getName();"> Get Akan Name </button>
+                <button type="submit" class="btn btn-secondary" onclick="getName();"> Your Akan Name </button>
             </form>
         </div>
 
@@ -76,5 +65,3 @@
 </body>
 
 </html>
-
-
