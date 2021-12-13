@@ -1,78 +1,68 @@
 html {
-    font-family: 'JOsefin Sans';
-    
+  font-family: "JOsefin Sans";
+  padding: 2rem;
 }
 
 header {
-    background-image: url(img/3.\ jpeg);
-height: 10vh;
-padding:1rem;
-
-text-align: center;
+  background-image: url(img/3.\ jpeg);
+  height: 10vh;
+  padding: 1rem;
+  text-align: center;
 }
- 
+
 #deets {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 #start {
-    color: white;
-    font-family: 'lobster';
-    font-weight: 400;
+  color: white;
+  font-family: "lobster";
+  font-weight: 400;
 }
 
 #end {
-    color:white;
-    font-family: 'lobster';
-    font-weight: 400;
+  color: white;
+  font-family: "lobster";
+  font-weight: 400;
 }
 #introduction {
-  
-  font-size:1.3rem;
-  padding:1rem;
-  height:15rem;
-  
+  font-size: 1.4rem;
+  padding: 1rem;
+  height: 18rem;
 }
 
-#names
-{
-
-    font-size: 1.7rem;
-    display: flex;
-    color:black;
-    justify-content: space-evenly;
-    height:20rem;
-    
+#names {
+  font-size: 1.4rem;
+  display: flex;
+  color: black;
+  justify-content: space-evenly;
+  height: 20rem;
 }
-#form{
-text-align:center;
- color: rgb(205, 138, 50);
-    padding:1rem;
-    background-image: url(img/1.\ Vector\ Illustration);
- font-size:1.3rem;
+#form {
+  text-align: center;
+  color: rgb(205, 138, 50);
+  padding: 1rem;
+  background-image: url(img/1.\ Vector\ Illustration);
+  font-size: 1.3rem;
 }
- form {
-     border:  solid 1px;
-    width:40%;
-    margin-left: 30%;
- color: black;
-     background-color: rgba(251, 252, 248, 0.568);
-     padding:1rem;
-     font-size:1.5rem;
- }
+form {
+  border: solid 1px;
+  width: 40%;
+  margin-left: 30%;
+  color: black;
+  background-color: rgba(251, 252, 248, 0.568);
+  padding: 1rem;
+  font-size: 1.5rem;
+}
 
-
- button {
-     padding:1rem;
-     font-family: 'josefin sans';
-     font-size: 1rem;
- }
+button {
+  padding: 1rem;
+  font-family: "josefin sans";
+  font-size: 1rem;
+}
 footer {
-   
-font-size :1.2em;
-background-color: black;
-color: white;
-padding: 1rem;
-text-align: center
-
-
+  font-size: 1.2em;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
