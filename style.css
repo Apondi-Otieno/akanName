@@ -1,27 +1,27 @@
 html {
     font-family: 'JOsefin Sans';
-    /* background-image: url(img/2.jpeg) ;
-    background-size: cover; */
+    
 }
 
 header {
-background-image: url(img/3.\ jpeg);
+    background-image: url(img/3.\ jpeg);
 height: 10vh;
 padding:1rem;
 
+text-align: center;
 }
  
 #deets {
     font-size: 1.2rem;
 }
 #start {
-    color:olive;
+    color: white;
     font-family: 'lobster';
     font-weight: 400;
 }
 
 #end {
-    color:;
+    color:white;
     font-family: 'lobster';
     font-weight: 400;
 }
@@ -30,20 +30,18 @@ padding:1rem;
   font-size:1.3rem;
   padding:1rem;
   height:15rem;
-  background-color: black;
-  color: white;
-
+  
 }
 
-.names
+#names
 {
 
     font-size: 1.7rem;
     display: flex;
-    color:whitesmoke;
+    color:black;
     justify-content: space-evenly;
     height:20rem;
-    background-color:black;
+    
 }
 #form{
 text-align:center;
