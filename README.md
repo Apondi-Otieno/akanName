@@ -10,7 +10,11 @@ This project is about finding Akan Names for people of ghanaian origin. THe name
 2. Clone the repo
 3. cd the project, then go live.
 
-## BDD
+## Display
+![Screenshot from 2021-12-13 16-56-23](https://user-images.githubusercontent.com/93314840/145827204-6819ca2b-4608-4b71-95f4-775e65cb0cf1.png)
+play![Screenshot from 2021-12-13 16-56-28](https://user-images.githubusercontent.com/93314840/145827217-a5a3c9b8-e070-46ca-80b7-4c02011543b6.png)
+
+
 
 ## Technologies Used
  1. HTML
