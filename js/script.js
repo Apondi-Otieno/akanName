@@ -27,7 +27,7 @@ function validateForm() {
         return false;
     }
     else if (genders[0].checked == false && genders[1].checked == false) {
-        alert('invalid');
+        alert('Please select gender');
         return false;
     }
 
@@ -116,42 +116,42 @@ function getGender() {
 
     switch (gender[0]) {
         case 0:
-            dayValue == 1;
+          if(  dayValue == 1);
             {
                 alert("You were born on " + days[0] + " and your name is " + female[0] + "!");
             }
             break;
 
         case 1:
-            dayValue == 2;
+            if(dayValue == 2);
             {
                 alert("You were born on " + days[1] + " and your name is " + female[0] + "!");
             }
             break;
 
         case 2:
-            dayValue == 3;
+           if( dayValue == 3);
             {
                 alert("You were born on " + days[2] + " and your name is " + female[0] + "!");
             }
             break;
 
         case 3:
-            dayValue == 4;
+          if(  dayValue == 4);
             {
                 alert("You were born on " + days[3] + " and your name is " + female[0] + "!");
             }
             break;
 
         case 4:
-            dayValue == 5;
+           if( dayValue == 5);
             {
                 alert("You were born on " + days[4] + " and your name is " + female[0] + "!");
             }
             break;
 
         case 5:
-            dayValue == 6;
+          if(  dayValue == 6);
             {
                 alert("You were born on " + days[5] + " and your name is " + female[0] + "!");
             }
@@ -159,7 +159,7 @@ function getGender() {
 
 
         case 6:
-            dayValue == 7;
+           if( dayValue == 7);
             {
                 alert("You were born on " + days[6] + " and your name is " + female[0] + "!");
             }
@@ -168,7 +168,7 @@ function getGender() {
             default:
     }
 
-    function findName() {
+    function getName() {
         dayValue = calcDayValue();
         getGender();
     }
