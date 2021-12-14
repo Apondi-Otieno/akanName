@@ -20,7 +20,7 @@ https://apondi-otieno.github.io/akanName/
 
 ![Screenshot from 2021-12-14 14-28-00](https://user-images.githubusercontent.com/93314840/145990125-df67b15b-aa1c-464b-916d-933b171e3c76.png)
 
-##Known Bugs
+## Known Bugs
 There are no known bugs at the moment. 
 
 ## Technologies Used
