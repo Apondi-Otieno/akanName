@@ -66,7 +66,7 @@ function getGender(g) {
     else {
         return false;
     }
-// control structure to find akan names
+    // control structure to find akan names
     switch (gender) {
         case "male":
 
@@ -157,12 +157,14 @@ function getGender(g) {
 // displays output
 
 function main(event) {
+    // The preventDefault() =if the event does not get explicitly handled, its default action should not be taken as it normally would be.
     event.preventDefault();
+
 
     if (validateForm()) {
         day = calcDay()
-        getGender(day);
-    }
+        getGender(day);}
+    // this will display the string with the akan name
 
     else {
         return false;
