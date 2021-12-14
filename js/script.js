@@ -14,7 +14,6 @@ function validateForm() {
 
     }
 
-
     else if (document.myForm.month.value == "" || document.myForm.month.value > 12 || document.myForm.month.value < 0) {
         alert("Month invalid")
         document.myForm.month.focus();
@@ -26,6 +25,7 @@ function validateForm() {
         document.myForm.day.focus();
         return false;
     }
+    
     else if (gender[0].checked == "" && gender[1].checked == "") {
         alert('Please select your gender');
         return false;
@@ -36,7 +36,7 @@ function validateForm() {
     }
 }
 
-// // calculates the day of birth
+//calculates the day of birth
 
 
 function calcDay() {
@@ -53,6 +53,7 @@ function calcDay() {
 
 }
 // calculates the gender
+
 function getGender(g) {
     var gen = document.getElementsByName("gender");
     var gender;
@@ -68,89 +69,85 @@ function getGender(g) {
 
     switch (gender) {
         case "male":
-            
-            switch (g){
-        case 1:
 
-            alert("Hey there,Your Akan name is " + male [0] + "!" );
-            break
+            switch (g) {
+                case 1:
 
-        case 2:
+                    alert("Hey there,Your Akan name is " + male[0] + "!");
+                    break
 
-            alert("Hey there,Your Akan name is " + male [1] + "!" );;
-            break
+                case 2:
 
-        case 3:
+                    alert("Hey there,Your Akan name is " + male[1] + "!");;
+                    break
 
-            alert("Hey there,Your Akan name is " + male [2]+ "!"  );
-            break
+                case 3:
 
-        case 4:
+                    alert("Hey there,Your Akan name is " + male[2] + "!");
+                    break
 
-            alert("Hey there, Your Akan name is" + male [3] + "!" );
-            break
+                case 4:
 
-        case 5:
+                    alert("Hey there, Your Akan name is" + male[3] + "!");
+                    break
 
-            alert("Hey there,Your Akan name is " + male [4] + "!" );
-            break
+                case 5:
 
-        case 6:
+                    alert("Hey there,Your Akan name is " + male[4] + "!");
+                    break
 
-            alert("Hey there, Your Akan name is " + male [5]+ "!"  );
-            break
+                case 6:
 
-
-        case 7:
-            alert("Hey there, Your Akan name is" + male [6]+ "!"  );
-            break
-    }
-    break;
-
-    case "female" :
-
-        switch (g){
-        case 1:
-
-            alert("Hey there, Your Akan name is " + female[0]+ "!"  );
-
-            break
-
-        case 2:
-
-            alert(" Hey there,Your Akan name is " + female[1] + "!" );
-            break
-
-        case 3:
-
-            alert(" Hey there,Your Akan name is " + female[2] + "!" );
-+ "!" 
-            break
-
-        case 4:
-            alert(" Hey there, Your Akan name is " + female[3] + "!" );
-
-            break
-
-        case 5:
-
-            alert(" Hey there, Your Akan name is " + female[4]+ "!"  );
-            break
-
-        case 6:
-            alert(" Hey there, our Akan name is " + female[5]+ "!"  );
-            
-            break
+                    alert("Hey there, Your Akan name is " + male[5] + "!");
+                    break
 
 
-        case 7:
+                case 7:
+                    alert("Hey there, Your Akan name is" + male[6] + "!");
+                    break
+            }
+            break;
 
-            alert(" Your Akan name is " + female[6] + "!" );
+        case "female":
+
+            switch (g) {
+                case 1:
+
+                    alert("Hey there, Your Akan name is " + female[0] + "!");
+                    break
+
+                case 2:
+
+                    alert(" Hey there,Your Akan name is " + female[1] + "!");
+                    break
+
+                case 3:
+
+                    alert(" Hey there,Your Akan name is " + female[2] + "!");
+                    + "!"
+                    break
+
+                case 4:
+                    alert(" Hey there, Your Akan name is " + female[3] + "!");
+
+                    break
+
+                case 5:
+
+                    alert(" Hey there, Your Akan name is " + female[4] + "!");
+                    break
+
+                case 6:
+                    alert(" Hey there, our Akan name is " + female[5] + "!");
+                    break
 
 
-            break
-        }
-        break;
+                case 7:
+
+                    alert(" Your Akan name is " + female[6] + "!");
+                    break
+            }
+            break;
 
         default:
     }
@@ -158,11 +155,11 @@ function getGender(g) {
 
 }
 
-function main(event){
+function main(event) {
     event.preventDefault();
 
-    if(validateForm()){
-        day= calcDay()
+    if (validateForm()) {
+        day = calcDay()
         getGender(day);
     }
 
