@@ -1,6 +1,6 @@
 
 var CC, YY, MM, DD, d, dayValue;
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var female = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
 
@@ -36,7 +36,7 @@ function validateForm() {
     }
 }
 
-
+// // calculates the day of birth
 
 
 function calcDay() {
@@ -52,7 +52,7 @@ function calcDay() {
     return y;
 
 }
-
+// calculates the gender
 function getGender(g) {
     var gen = document.getElementsByName("gender");
     var gender;
@@ -72,45 +72,37 @@ function getGender(g) {
             switch (g){
         case 1:
 
-            alert("You were born on " + days[0] + " and your name is " + male[0] + "!");
-
+            alert("Hey there,Your Akan name is " + male [0] + "!" );
             break
 
         case 2:
 
-            alert("You were born on " + days[1] + " and your name is " + male[0] + "!");
-
+            alert("Hey there,Your Akan name is " + male [1] + "!" );;
             break
 
         case 3:
 
-            alert("You were born on " + days[2] + " and your name is " + male[0] + "!");
-
+            alert("Hey there,Your Akan name is " + male [2]+ "!"  );
             break
 
         case 4:
 
-            alert("You were born on " + days[3] + " and your name is " + male[0] + "!");
-
+            alert("Hey there, Your Akan name is" + male [3] + "!" );
             break
 
         case 5:
 
-            alert("You were born on " + days[4] + " and your name is " + male[0] + "!");
-
+            alert("Hey there,Your Akan name is " + male [4] + "!" );
             break
 
         case 6:
 
-            alert("You were born on " + days[5] + " and your name is " + male[0] + "!");
-
+            alert("Hey there, Your Akan name is " + male [5]+ "!"  );
             break
 
 
         case 7:
-            alert("You were born on " + days[6] + " and your name is " + male[0] + "!");
-
-
+            alert("Hey there, Your Akan name is" + male [6]+ "!"  );
             break
     }
     break;
@@ -120,43 +112,40 @@ function getGender(g) {
         switch (g){
         case 1:
 
-            alert("You were born on " + days[0] + " and your name is " + female[0] + "!");
+            alert("Hey there, Your Akan name is " + female[0]+ "!"  );
 
             break
 
         case 2:
 
-            alert("You were born on " + days[1] + " and your name is " + female[0] + "!");
-
+            alert(" Hey there,Your Akan name is " + female[1] + "!" );
             break
 
         case 3:
 
-            alert("You were born on " + days[2] + " and your name is " + female[0] + "!");
-
+            alert(" Hey there,Your Akan name is " + female[2] + "!" );
++ "!" 
             break
 
         case 4:
-            alert("You were born on " + days[3] + " and your name is " + female[0] + "!");
+            alert(" Hey there, Your Akan name is " + female[3] + "!" );
 
             break
 
         case 5:
 
-            alert("You were born on " + days[4] + " and your name is " + female[0] + "!");
-
+            alert(" Hey there, Your Akan name is " + female[4]+ "!"  );
             break
 
         case 6:
-
-            alert("You were born on " + days[5] + " and your name is " + female[0] + "!");
-
+            alert(" Hey there, our Akan name is " + female[5]+ "!"  );
+            
             break
 
 
         case 7:
 
-            alert("You were born on " + days[6] + " and your name is " + female[0] + "!");
+            alert(" Your Akan name is " + female[6] + "!" );
 
 
             break
@@ -173,8 +162,8 @@ function main(event){
     event.preventDefault();
 
     if(validateForm()){
-        days= calcDay();
-        getGender(days);
+        day= calcDay()
+        getGender(day);
     }
 
     else {

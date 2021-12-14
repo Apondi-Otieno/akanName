@@ -33,98 +33,101 @@
 
 
     <main>
-      
-            <div class="container" id="introduction">
-                <h4>A brief history of Akan Names</h4>
-                <p>The Akan people of Ghana frequently name their
-                    children after the day of the week they were born and
-                    the
-                    order in which they were born. These "day names" have further meanings concerning the soul and
-                    character
-                    of
-                    the person. Middle names have considerably more variety and can refer to their birth order, twin
-                    status,
-                    or
-                    an ancestor's middle name.
 
-                    This naming tradition is shared throughout West Africa and the African diaspora. During the
-                    18th–19th
-                    centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred
-                    to
-                    as
-                    Coromantees. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy,
-                    Cuffee
-                    or
-                    Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.
-                    <br> Akan names are derived from Ghanian culture. Frequently in Ghana, children
-                    given their first name as a 'day name' which corresponds to the day in the
-                    week they were born. Here are Ghanian day names
-                </p>
-            </div>
-            
-            <div class="container-fluid" id="names">
+        <div class="container" id="introduction">
+            <h4>A brief history of Akan Names</h4>
+            <p>The Akan people of Ghana frequently name their
+                children after the day of the week they were born and
+                the
+                order in which they were born. These "day names" have further meanings concerning the soul and
+                character
+                of
+                the person. Middle names have considerably more variety and can refer to their birth order, twin
+                status,
+                or
+                an ancestor's middle name.
 
-                <ol>
-                    <h4> Male </h4>
-                    <li> Sunday: Kwasi </li>
+                This naming tradition is shared throughout West Africa and the African diaspora. During the
+                18th–19th
+                centuries, enslaved people in the Caribbean from the region that is modern-day Ghana were referred
+                to
+                as
+                Coromantees. Many of the leaders of enslaved people's rebellions had "day names" including Cuffy,
+                Cuffee
+                or
+                Kofi, Cudjoe or Kojo, Quao or Quaw, and Quamina or Kwame/Kwamina.
+                <br> Akan names are derived from Ghanian culture. Frequently in Ghana, children
+                given their first name as a 'day name' which corresponds to the day in the
+                week they were born. Here are Ghanian day names
+            </p>
+        </div>
 
-                    <li>Monday: Kwadwo</li>
+        <div class="container-fluid" id="names">
 
-                    <li> Tuesday: Kwabena</li>
+            <ol>
+                <h4> Male </h4>
+                <li> Sunday: Kwasi </li>
 
-                    <li> Wednesday: Kwaku</li>
+                <li>Monday: Kwadwo</li>
 
-                    <li>Thursday: Yaw</li>
+                <li> Tuesday: Kwabena</li>
 
-                    <li> Friday: Kofi</li>
+                <li> Wednesday: Kwaku</li>
 
-                    <li> Saturday: Kwame</li>
-                </ol>
+                <li>Thursday: Yaw</li>
+
+                <li> Friday: Kofi</li>
+
+                <li> Saturday: Kwame</li>
+            </ol>
 
 
 
-                <ol>
-                    <h4> Female </h4>
-                    <li> Sunday: Akosua</li>
+            <ol>
+                <h4> Female </h4>
+                <li> Sunday: Akosua</li>
 
-                    <li>Monday: Adwoa</li>
+                <li>Monday: Adwoa</li>
 
-                    <li> Tuesday: Abenaa </li>
+                <li> Tuesday: Abenaa </li>
 
-                    <li> Wednesday: Akua </li>
+                <li> Wednesday: Akua </li>
 
-                    <li> Thursday: Yaa </li>
+                <li> Thursday: Yaa </li>
 
-                    <li> Friday: Afua </li>
+                <li> Friday: Afua </li>
 
-                    <li> Saturday: Ama </li>
+                <li> Saturday: Ama </li>
 
-                </ol>
+            </ol>
 
-            </div>
+        </div>
 
-       
+
         <div class="container" id="form">
 
             <h3>Do you want to find your akanName?</h3>
 
 
             <form name="myForm" class="form" onsubmit="validateForm();">
+                <!-- inputs year,month and date of birth -->
                 <label for="year"> Year of Birth :</label>
                 <input type="number" id="year" placeholder="eg 1999">
                 <br><br>
-                <label for="year"> Month of Birth: </label>
+                <label for="Month"> Month of Birth: </label>
                 <input type="number" id="month" placeholder="eg 6">
                 <br><br>
-                <label for="year"> Date of Birth: </label>
+                <label for="date"> Date of Birth: </label>
                 <input type="number" id="day" placeholder="eg 16">
                 <br><br>
-                <input type="checkbox" id="male" class="form-check-input" name="gender"  value="male">
-                <label for="male">Female</label><br>
+                <!-- let's the user select gender -->
+                <input type="checkbox" id="male" class="form-check-input" name="gender" value="male">
+                <label for="male">Male</label><br>
                 <input type="checkbox" id="female" class="form-check-input" name="gender" value="female">
-                <label for="female">Male</label><br><br>
-
-                <button type="submit" class="btn btn-secondary" onclick="main(event); return false;"> Your Akan Name </button>
+                <label for="female">Female</label><br><br>
+                <!--button to help display user's name and day of birth  -->
+                <button type="submit" class="btn btn-secondary" onclick="main(event); return false;"> Your Akan Name
+                </button>
             </form>
         </div>
         <footer class="container">
