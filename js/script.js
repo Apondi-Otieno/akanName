@@ -25,7 +25,7 @@ function validateForm() {
         document.myForm.day.focus();
         return false;
     }
-    
+
     else if (gender[0].checked == "" && gender[1].checked == "") {
         alert('Please select your gender');
         return false;
@@ -66,7 +66,7 @@ function getGender(g) {
     else {
         return false;
     }
-
+// control structure to find akan names
     switch (gender) {
         case "male":
 
@@ -154,6 +154,7 @@ function getGender(g) {
 
 
 }
+// displays output
 
 function main(event) {
     event.preventDefault();
