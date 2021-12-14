@@ -1,5 +1,5 @@
 # akanName
- Designed by Apondi
+ Designed by Apondi ||
  Email: apondioti@gmail.com
 
 ## Project Description
