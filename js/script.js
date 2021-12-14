@@ -174,7 +174,7 @@ function main(event){
 
     if(validateForm()){
         days= calcDay();
-        getGender(dayValue);
+        getGender(days);
     }
 
     else {

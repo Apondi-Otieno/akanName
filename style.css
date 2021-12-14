@@ -1,7 +1,6 @@
 html {
   font-family: "JOsefin Sans";
-  
-  }
+}
 
 header {
   background-image: url(img/3.\ jpeg);
@@ -27,7 +26,6 @@ header {
 #introduction {
   font-size: 1.2rem;
   padding: 2rem;
-  height: 18rem;
   text-align: center;
 }
 
@@ -48,18 +46,16 @@ header {
 }
 form {
   border: solid 1px;
-  width: 40%;
-  margin-left: 30%;
   color: black;
   background-color: rgba(251, 252, 248, 0.568);
   padding: 1rem;
   font-size: 1.5rem;
 }
 
-h4{
-    color: #f06e04;
-    font-size:2rem;
-    text-decoration: underline;
+h4 {
+  color: #f06e04;
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 button {
