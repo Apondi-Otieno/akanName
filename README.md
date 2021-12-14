@@ -1,5 +1,6 @@
 # akanName
  Designed by Apondi
+ Email: apondioti@gmail.com
 
 ## Project Description
 This project is about finding Akan Names for people of ghanaian origin. THe name depends of the date of birth which is calculated by the defined function. 
@@ -15,9 +16,12 @@ https://apondi-otieno.github.io/akanName/
 ## Display
 ![Screenshot from 2021-12-13 17-34-16](https://user-images.githubusercontent.com/93314840/145831274-21d75c97-adca-4b8d-a023-a45a134c7ea0.png)
 
-![Screenshot from 2021-12-13 17-34-19](https://user-images.githubusercontent.com/93314840/145831284-b00298be-3b53-487e-8a15-10f6b732548f.png)
+![Screenshot from 2021-12-14 14-27-41](https://user-images.githubusercontent.com/93314840/145990120-b0e43f3d-158d-499b-8cda-77e0c885d127.png)
 
+![Screenshot from 2021-12-14 14-28-00](https://user-images.githubusercontent.com/93314840/145990125-df67b15b-aa1c-464b-916d-933b171e3c76.png)
 
+##Known Bugs
+There are no known bugs at the moment. 
 
 ## Technologies Used
  1. HTML
